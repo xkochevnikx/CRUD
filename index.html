@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="form_box">
+      <div class="placeholder">
+        <input id="name" type="text" placeholder="name" />
+        <input id="email" type="text" placeholder="email" />
+      </div>
+      <input type="file" id="photo" multiple accept="image/*,image/jpeg/png" />
+
+      <button id="btnSend">ОТПРАВИТЬ</button>
+
+      <ul id="list"></ul>
+      <div id="modal">
+        <input type="text" id="inpEdit" />
+        <input type="text" id="inpEdit2" />
+        <button id="modal_save">save</button>
+        <button id="modal_close">close</button>
+        <span class="boxIndex"></span>
+      </div>
+    </div>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
